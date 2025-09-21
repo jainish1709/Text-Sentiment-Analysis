@@ -145,9 +145,6 @@ jupyter>=1.0.0
 kaggle>=1.5.0
 ```
 
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ## 👤 Author
 
@@ -157,11 +154,3 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/jainish1709/Text-Sentiment-Analysis/issues).
-
-## ⭐ Show Your Support
-
-If this project helped you, please give it a ⭐ on GitHub!
-
----
-
-*Built with ❤️ using Python and Machine Learning*
