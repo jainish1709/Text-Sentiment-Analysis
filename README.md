@@ -1,28 +1,24 @@
 # Text-Sentiment-Analysis
 
-A machine learning project that classifies tweets as positive or negative using Natural Language Processing and Logistic Regression. Built with Python and scikit-learn on the Sentiment140 dataset containing 1.6 million tweets.
+A machine learning project that classifies tweets as positive or negative using natural language processing and logistic regression.
 
 🎯 Project Overview
-This project demonstrates:
+This project analyzes the sentiment of Twitter data using the famous Sentiment140 dataset containing 1.6 million tweets. The model achieves 77.8% accuracy in predicting whether a tweet expresses positive or negative sentiment.
 
-Text preprocessing with stemming and stopword removal
-Feature extraction using TF-IDF vectorization
-Machine learning classification with Logistic Regression
-Model evaluation and performance metrics
-Model persistence for future predictions
+✨ Features
+Large Dataset: Trained on 1.6 million tweets from Sentiment140
+Text Preprocessing: Advanced cleaning with stemming and stopword removal
+Machine Learning: Logistic Regression model with TF-IDF vectorization
+High Accuracy: 77.8% accuracy on test data
+Saved Model: Pre-trained model ready for predictions
 
 📊 Dataset
 
 Source: Sentiment140 Dataset from Kaggle
-Size: 1.6 million tweets
-Features: 6 columns (target, id, date, flag, user, text)
+Size: 1,600,000 tweets
 Classes:
 
 0 = Negative sentiment
-1 = Positive sentiment (originally 4 in dataset)
+1 = Positive sentiment
 
-
-Balance: 800,000 positive + 800,000 negative tweets
-
-```bash
-pip install -r requirements.txt
+Features: Tweet text, user, timestamp, and sentiment labels
