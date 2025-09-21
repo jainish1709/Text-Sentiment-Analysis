@@ -1,0 +1,28 @@
+# Large dataset files
+*.csv
+*.zip
+training.1600000.processed.noemoticon.csv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Kaggle credentials
+kaggle.json
+
+# Environment
+.env
+.venv/
+venv/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
